@@ -1,0 +1,6 @@
+When generating git commit messages:
+1. Language: Simplified Chinese only.
+2. Format: type(scope): description
+3. Types in Chinese mapping: feat→新特性, fix→修复, docs→文档, style→格式, refactor→重构, perf→性能, test→测试, chore→构建/工具
+4. Example: "fix(登录模块): 修复验证码刷新后不更新的问题"
+5. Keep the subject line under 50 characters if possible.
