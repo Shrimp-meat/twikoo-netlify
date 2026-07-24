@@ -1,0 +1,12 @@
+[[headers]]
+for = "/"
+[headers.values]
+Access-Control-Allow-Origin = "https://blog.addlong.de5.net/"   # 你的域名 例如 https://blog.example.com
+Access-Control-Allow-Headers = "Content-Type"
+Access-Control-Allow-Methods = "*"
+
+[[redirects]]
+from = "/"
+to = "/.netlify/functions/twikoo"
+status = 200
+force = true
